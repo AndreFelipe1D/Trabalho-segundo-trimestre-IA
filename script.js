@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada){
 }
 
 function mostraResultado(){
-    caixaPerguntas.textContent = "Você gosta de carros?";
+    caixaPerguntas.textContent = "Parabens colega perdeu seu tempo";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
