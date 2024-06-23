@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada){
 }
 
 function mostraResultado(){
-    caixaPerguntas.textContent = "Parabens colega perdeu seu tempo";
+    caixaPerguntas.textContent = "Carros são divertidos pra kct";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
