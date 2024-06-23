@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada){
 }
 
 function mostraResultado(){
-    caixaPerguntas.textContent = "Carros são divertidos pra kct";
+    caixaPerguntas.textContent = "Independente, foram ótimas escolhas, Valeu tmj";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
