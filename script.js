@@ -10,24 +10,24 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Civic SI 2008",
-                afirmacao: "afirmacao"
+                afirmacao: "Ótima escolha!O Civic com seu sistema I-Vtec e os 192 pocotós anda muito bem. "
             },
             {
              texto: "Opala 4.1 1992",   
-             afirmacao: "afirmacao"
+             afirmacao: "Ótima escolha! Um ícone automotivo brasileiro que por onde passa chama a atenção."
             }
         ]
     },
     {
-        enunciado: "Carburado ou Injetado?",
+        enunciado: "Com Carburador ou Injeção programável?",
         alternativas: [
             {
-                texto: "Carburado",
-                afirmacao: "afirmacao"
+                texto: "Com Carburador",
+                afirmacao: "Ousado, hoje em dia é dificil ver um clássico como o Opala desse jeito"
             },
             {
-                texto: "Injetado",
-                afirmacao: "afirmacao"
+                texto: "Com Injeção programável",
+                afirmacao: "Escolheu bem, uma injeção programável possibilita uma economia melhor de combustível."
             }
             
         ]
@@ -37,11 +37,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Turbo",
-                afirmacao:"afirmacao"
+                afirmacao:"Quando a turbina encher é só uma patada de potência."
             },
             {
                 texto: "Aspirado",
-                afirmacao:"afirmacao"
+                afirmacao:"Se fazer barulho por onde passa for o objetivo essa é a melhor pedida."
             }
         ]
     },
@@ -50,24 +50,24 @@ const perguntas = [
         alternativas: [
             {
                 texto:"Le Mans",
-                afirmacao:"afirmacao"
+                afirmacao:"Essa foi uma escolha racional, deu aula."
             },
             {
                 texto:"Nurburgring",
-                afirmacao:"afirmacao"
+                afirmacao:"Se quiser conhecer o Ayrton Senna de perto esse é o caminho."
             }
         ]
     },
     {
-        enunciado: "Qual o Melhor Motor para o Skyline R34 do O'Conner?",
+        enunciado: "Qual o Melhor Motor para o Skyline R34 do Brian O'Conner?",
         alternativas: [
             {
                 texto: "Gallo 12",
-                afirmacao:"afirmacao"
+                afirmacao:"Você não conhece o filme ou se esqueceu da clássica cena."
             },
             {
                 texto:"Gallo 24",
-                afirmacao:"afirmacao"
+                afirmacao:"Tá sabendo hein, entendeu a referência isso aí."
             }
         ]
     },
