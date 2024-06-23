@@ -6,38 +6,38 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Entre um Gol CL 1.8 MI 1997 ou Chevette DL 1.6 1992, Qual você escolheria?",
+        enunciado: "Entre um Civic SI 2.0 2008 ou Opala Comodoro 4.1 1992, Qual você escolheria?",
         alternativas: [
-            "Gol CL 1.8 MI 1997",
-            "Chevette DL 1.6 1992"
+            "Civic SI 2008",
+            "Opala 4.1 1992"
         ]
     },
     {
-        enunciado: "Pergunta2",
+        enunciado: "Carburado ou Injetado?",
         alternativas: [
-            "Alternativa1",
-            "Alternativa2"
+            "Carburado",
+            "Injetado"
         ]
     },
     {
-        enunciado: "Pergunta2",
+        enunciado: "Turbo ou Aspirado?",
         alternativas: [
-            "Alternativa1",
-            "Alternativa2"
+            "Turbo",
+            "Aspirado"
         ]
     },
     {
-        enunciado: "Pergunta2",
+        enunciado: "Correr à noite em Le Mans ou em Nurburgring?",
         alternativas: [
-            "Alternativa1",
-            "Alternativa2"
+            "Le Mans",
+            "Nurburgring"
         ]
     },
     {
-        enunciado: "Pergunta2",
+        enunciado: "Qual o Melhor Motor para o Skyline R34 do O'Conner?",
         alternativas: [
-            "Alternativa1",
-            "Alternativa2"
+            "Gallo 12",
+            "Gallo 24"
         ]
     },
 ];
