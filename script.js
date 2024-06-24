@@ -107,7 +107,7 @@ function respostaSelecionada(opcaoSelecionada){
 function mostraResultado(){
     caixaPerguntas.textContent = "Independente, foram ótimas escolhas, Valeu tmj";
     textoResultado.textContent = historiaFinal;
-    caixaAlternativas.textContent = ".texto-resultado";
+    caixaAlternativas.textContent = " ";
 }
 
 mostraPergunta();
