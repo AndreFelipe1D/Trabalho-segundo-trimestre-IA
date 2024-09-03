@@ -1,10 +1,4 @@
-const caixaPrincipal = document.querySelector(".caixa-principal");
-const caixaPerguntas = document.querySelector(".caixa-perguntas");
-const caixaAlternativas = document.querySelector(".caixa-alternativas");
-const caixaResultado = document.querySelector(".caixa-resultado");
-const textoResultado = document.querySelector(".texto-resultado");
-
-const perguntas = [
+export const perguntas = [
     {
         enunciado: "Entre um Civic SI 2.0 2008 ou Opala Comodoro 4.1 1992, Qual você escolheria?",
         alternativas: [
@@ -102,42 +96,3 @@ const perguntas = [
         ]
     },
 ];
-
-let atual = 0;
-let perguntaAtual;
-let historiaFinal = "";
-
-function mostraPergunta() {
-    if(atual >= perguntas.length){
-        mostraResultado();
-        return;
-    }
-    perguntaAtual = perguntas[atual];
-    caixaPerguntas.textContent = perguntaAtual.enunciado;
-    caixaAlternativas.textContent = "";
-    mostraAlternativas();    
-}
-
-function mostraAlternativas(){
-    for(const alternativa of perguntaAtual.alternativas){
-        const botaoAlternativas = document.createElement("button");
-        botaoAlternativas.textContent = alternativa.texto;
-        botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa)); 
-        caixaAlternativas.appendChild(botaoAlternativas); 
-    }
-}
-
-function respostaSelecionada(opcaoSelecionada){
-    const afirmacoes = opcaoSelecionada.afirmacao;
-    historiaFinal += afirmacoes + " ";
-    atual++;
-    mostraPergunta();
-}
-
-function mostraResultado(){
-    caixaPerguntas.textContent = "Independente, foram ótimas escolhas, Valeu tmj";
-    textoResultado.textContent = historiaFinal;
-    caixaAlternativas.textContent = " ";
-}
-
-mostraPergunta();
