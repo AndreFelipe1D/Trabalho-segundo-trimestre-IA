@@ -10,11 +10,14 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Civic SI 2008",
-                afirmacao: "Se você escolheu o Civic, foi uma Ótima escolha!O Civic com seu sistema I-Vtec e os 192 pocotós anda muito bem. "
+                afirmacao: [
+                    "Se você escolheu o Civic, foi uma Ótima escolha!O Civic com seu sistema I-Vtec e os 192 pocotós anda muito bem. ",
+                    "Já que não estamos no Japão, nada mais racional do que trazer um pouco do Japão para o Brasil."
+            ]
             },
             {
              texto: "Opala 4.1 1992",   
-             afirmacao: "Se voê escolheu o Opala foi uma ótima escolha! Um ícone automotivo brasileiro que por onde passa chama a atenção."
+             afirmacao: "Se você escolheu o Opala foi uma ótima escolha! Um ícone automotivo brasileiro que por onde passa chama a atenção."
             }
         ]
     },
@@ -23,7 +26,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Com Carburador",
-                afirmacao: "Ousado em escolher o carburador, hoje em dia é dificil ver carros essa configuração."
+                afirmacao: "Ousado em escolher o carburador, hoje em dia é dificil ver carros com essa configuração."
             },
             {
                 texto: "Com Injeção programável",
@@ -41,7 +44,7 @@ const perguntas = [
             },
             {
                 texto: "Aspirado",
-                afirmacao:"Se fazer barulho por onde passa for o objetivo os aspirados é a escolha certa."
+                afirmacao:"Se fazer barulho por onde passa for o objetivo, os aspirados são a escolha certa."
             }
         ]
     },
