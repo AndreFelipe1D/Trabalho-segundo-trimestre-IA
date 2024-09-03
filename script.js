@@ -17,7 +17,10 @@ const perguntas = [
             },
             {
              texto: "Opala 4.1 1992",   
-             afirmacao: "Se você escolheu o Opala foi uma ótima escolha! Um ícone automotivo brasileiro que por onde passa chama a atenção."
+             afirmacao: [
+                "Se você escolheu o Opala foi uma ótima escolha! Um ícone automotivo brasileiro que por onde passa chama a atenção.",
+                "Classe e Robustez em um carro só, isso é Opala" 
+            ]
             }
         ]
     },
@@ -26,11 +29,17 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Com Carburador",
-                afirmacao: "Ousado em escolher o carburador, hoje em dia é dificil ver carros com essa configuração."
+                afirmacao: [
+                    "Ousado em escolher o carburador, hoje em dia é dificil ver carros com essa configuração.",
+                    "Prepara o bolso que carburado gasta mais combustivel."
+            ]
             },
             {
                 texto: "Com Injeção programável",
-                afirmacao: "Escolheu bem,a escolha de uma injeção programável possibilita uma economia melhor de combustível."
+                afirmacao: [
+                    "Escolheu bem,a escolha de uma injeção programável possibilita uma economia melhor de combustível.",
+                    "Anderson Dick agradece a sua escolha."
+            ]
             }
             
         ]
@@ -40,11 +49,17 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Turbo",
-                afirmacao:"Se escolheu turbo se prepara porque quando a turbina encher é só uma patada de potência de uma vez."
+                afirmacao:[
+                    "Se escolheu turbo se prepara porque quando a turbina encher é só uma patada de potência de uma vez.",
+                    "Se é eficiência é o que você busca, você está no caminho certo."
+            ]
             },
             {
                 texto: "Aspirado",
-                afirmacao:"Se fazer barulho por onde passa for o objetivo, os aspirados são a escolha certa."
+                afirmacao: [
+                    "Se fazer barulho por onde passa for o objetivo, os aspirados são a escolha certa.",
+                    "É barulho e diversão a vontade."
+            ]
             }
         ]
     },
@@ -53,11 +68,17 @@ const perguntas = [
         alternativas: [
             {
                 texto:"Le Mans",
-                afirmacao:"Essa foi uma escolha racional, pois em Le Mans pelo menos tem iluminação"
+                afirmacao:[
+                    "Essa foi uma escolha racional, pois em Le Mans pelo menos tem iluminação",
+                    "Um circuto marcante na história do automobilismo, boa escolha."
+            ]
             },
             {
                 texto:"Nurburgring",
-                afirmacao:"Se quiser conhecer o Ayrton Senna de perto Nurburgring é a melhor escolha"
+                afirmacao:[
+                    "Se quiser conhecer o Ayrton Senna de perto Nurburgring é a melhor escolha",
+                    "Circuito incrível, mas a noite deve ser tenso, escolha ousada."
+            ]
             }
         ]
     },
@@ -66,11 +87,17 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Gallo 12",
-                afirmacao:"Você não conhece o filme ou se esqueceu da clássica cena."
+                afirmacao:[
+                    "Você não conhece o filme ou se esqueceu da clássica cena.",
+                    "Não sabia que pizzaria fazia motor de carro."
+            ]
             },
             {
                 texto:"Gallo 24",
-                afirmacao:"Tá sabendo hein, entendeu a referência, isso aí!"
+                afirmacao:[
+                    "Tá sabendo hein, entendeu a referência, isso aí!",
+                    "Não sabia que pizzaria fazia motor de carro."
+            ]
             }
         ]
     },
